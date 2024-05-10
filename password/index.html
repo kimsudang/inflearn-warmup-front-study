@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="header">
+        <span>생성된 비밀번호 : </span>
+        <button>클릭해서 비밀번호 복사</button>
+      </div>
+      <hr />
+      <div class="sectionContainer">
+        <input class="passwodLength" type="number" placeholder="0" />
+        <p class="menu">포함할 문자</p>
+        <div class="checkList">
+          <input class="checkEl" type="checkbox" />Number (0 - 9)
+        </div>
+        <div class="checkList">
+          <input class="checkEl" type="checkbox" />Small Letters (a - z)
+        </div>
+        <div class="checkList">
+          <input class="checkEl" type="checkbox" />Capital Letters (A - Z)
+        </div>
+        <div class="checkList">
+          <input class="checkEl" type="checkbox" />Symbols (!, @, #, $, %, &, /)
+        </div>
+        <button class="createPassword">Create Password</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
